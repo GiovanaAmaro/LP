@@ -1,0 +1,10 @@
+  ```mermaid
+ flowchart TD
+      A((Inicio))-->input1[\Digite a Idade\]
+      input1 --> input2[\Tem titulo?\]
+      input2 --> verification{Idade >= 16? \n E \n Tem titulo?}
+      verification -->|Sim| output1[/Pode votar/]
+      verification --> |Não| output2[/Não pode votar/]
+      output1 --> finish((Fim))
+      output2 --> finish
+    ```

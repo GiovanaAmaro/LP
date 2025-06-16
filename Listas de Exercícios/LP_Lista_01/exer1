@@ -1,0 +1,10 @@
+```mermaid
+   
+    flowchart TD
+        start(( Início )) --> input[\ 60 \]
+        input --> verification{ Nota >= 50? }
+        verification --> |Sim| A[/ Aprovado /]
+        verification --> |Não| B[/ Reprovado /]
+        A --> finish([ Fim ])
+        B --> finish
+    ```

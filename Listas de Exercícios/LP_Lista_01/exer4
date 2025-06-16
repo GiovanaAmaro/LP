@@ -1,0 +1,10 @@
+ ```mermaid
+   flowchart TD
+      start((Inicio)) -->b[\4\]
+   b -->
+      input{Numero >=0}
+      input --> |Sim| ouput1[/Positivo/]
+      input-->|Nao| ouput2[/Negativo/]
+      ouput1-->finish((Fim))
+      ouput2-->finish
+   ```

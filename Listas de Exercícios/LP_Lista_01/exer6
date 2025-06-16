@@ -1,0 +1,14 @@
+  ```mermaid
+  
+   flowchart TD
+    A((Inicio))-->B[\ 6 \]    
+    B-->C[\Digite 7 \]
+    C-->D{Número1 > Número2?}
+    D--Sim-->E[\Número 1 é o maior\]
+    D--Não-->F[\Núumero 2 é o maior?\]
+    F--Sim-->G[\O  N2 é o maior\]
+    F--Não-->H[\Os números são iguais\]
+    E-->I[Fim]
+    G-->I
+    H-->I
+      ```
